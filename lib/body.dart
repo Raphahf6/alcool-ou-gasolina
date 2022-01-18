@@ -55,7 +55,7 @@ class _BodyState extends State<Body> {
             child: TextField(
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
-                  label: Text('Preço Alcool, ex: 01.59'),
+                  label: Text('Preço Álcool, ex: 01.59'),
                   labelStyle: TextStyle(fontSize: 25)),
               controller: _controllerAlcool,
             ),
